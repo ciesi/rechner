@@ -16,7 +16,7 @@ namespace rechner1._0
         public int calcPlus()
         {
             return (int)number1 + (int)number2;
-
+            
         }
 
         public int calcMinus()
@@ -31,11 +31,13 @@ namespace rechner1._0
             {
                 case "+":
                     return calcPlus();
+                    
                 case "-":
                     return calcMinus();
                 default:
                     return 0;
             }
+            
         }
 
     }

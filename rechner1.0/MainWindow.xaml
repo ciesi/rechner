@@ -7,11 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btn_plus" Content="+" HorizontalAlignment="Left" Margin="125,175,0,0" VerticalAlignment="Top" Width="33"/>
-        <Button x:Name="btn_minus" Content="-" HorizontalAlignment="Left" Margin="125,200,0,0" VerticalAlignment="Top" Width="33"/>
-        <Button x:Name="btn_1" Content="1" HorizontalAlignment="Left" Margin="163,175,0,0" VerticalAlignment="Top" Width="33"/>
-        <Button x:Name="btn_2" Content="2" HorizontalAlignment="Left" Margin="163,200,0,0" VerticalAlignment="Top" Width="33"/>
-        <Button x:Name="btn_3" Content="3" HorizontalAlignment="Left" Margin="163,225,0,0" VerticalAlignment="Top" Width="33"/>
+        <Button x:Name="btn_plus" Content="+" HorizontalAlignment="Left" Margin="125,175,0,0" VerticalAlignment="Top" Width="33" Click="btn_plus_Click"/>
+        <Button x:Name="btn_minus" Content="-" HorizontalAlignment="Left" Margin="125,200,0,0" VerticalAlignment="Top" Width="33" Click="btn_minus_Click"/>
+        <Button x:Name="btn_1" Content="1" HorizontalAlignment="Left" Margin="163,175,0,0" VerticalAlignment="Top" Width="33" Click="btn_1_Click"/>
+        <Button x:Name="btn_2" Content="2" HorizontalAlignment="Left" Margin="163,200,0,0" VerticalAlignment="Top" Width="33" Click="btn_2_Click"/>
+        <Button x:Name="btn_3" Content="3" HorizontalAlignment="Left" Margin="163,225,0,0" VerticalAlignment="Top" Width="33" Click="btn_3_Click"/>
+        <Button x:Name="btn_gleich" Content="=" HorizontalAlignment="Left" Margin="217,225,0,0" VerticalAlignment="Top" Width="33" Click="btn_gleich_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="163,147,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="136"/>
 
     </Grid>
 </Window>

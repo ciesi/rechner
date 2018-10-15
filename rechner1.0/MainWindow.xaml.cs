@@ -27,6 +27,7 @@ namespace rechner1._0
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
         private void calcAndPushResult(string op = "")
@@ -37,7 +38,7 @@ namespace rechner1._0
                 calcElement.number2 = createNumberFromDigits(inputNumbers);
                 inputNumbers = new List<int>();
             }
-
+            
             calcElements.Add(calcElement);
 
             // calc
@@ -63,25 +64,38 @@ namespace rechner1._0
             foreach (int digit in digits)
             {
                 returnVal = returnVal * 10 + digit;
-
+                textBlock.Text = Convert.ToString(returnVal);
             }
-            anzeige.Text = returnVal.ToString();
             return returnVal;
+
         }
 
-        private void Button1_Click(object sender, RoutedEventArgs e)
+
+        private void btn_1_Click(object sender, RoutedEventArgs e)
         {
             inputNumbers.Add(1);
 
         }
 
-        private void Button2_Click(object sender, RoutedEventArgs e)
+        private void btn_2_Click(object sender, RoutedEventArgs e)
         {
             inputNumbers.Add(2);
         }
 
-        private void ButtonPlus_Click(object sender, RoutedEventArgs e)
+        private void btn_3_Click(object sender, RoutedEventArgs e)
         {
+            inputNumbers.Add(3);
+        }
+
+        private void btn_gleich_Click(object sender, RoutedEventArgs e)
+        {
+            calcAndPushResult();
+
+        }
+
+        private void btn_plus_Click(object sender, RoutedEventArgs e)
+        {
+
             calcElement.op = "+";
 
             if (calcElement.number1 == null)
@@ -97,12 +111,31 @@ namespace rechner1._0
             {
                 calcElements.Add(calcElement);
                 calcElement = new CalcElement();
+                
             }
         }
 
-        private void ButtonEquals_Click(object sender, RoutedEventArgs e)
+        private void btn_minus_Click(object sender, RoutedEventArgs e)
         {
-            calcAndPushResult();
+
+            calcElement.op = "-";
+
+            if (calcElement.number1 == null)
+            {
+                calcElement.number1 = createNumberFromDigits(inputNumbers);
+                inputNumbers = new List<int>();
+            }
+            else if (calcElement.number2 == null)
+            {
+                calcAndPushResult("-");
+            }
+            else
+            {
+                calcElements.Add(calcElement);
+                calcElement = new CalcElement();
+
+            }
+
         }
     }
 }
