@@ -1,0 +1,15 @@
+C:\Users\mgeiger\source\repos\rechner1.0\rechner1.0\bin\Debug\rechner1.0.exe.config
+C:\Users\mgeiger\source\repos\rechner1.0\rechner1.0\bin\Debug\rechner1.0.exe
+C:\Users\mgeiger\source\repos\rechner1.0\rechner1.0\bin\Debug\rechner1.0.pdb
+C:\Users\mgeiger\source\repos\rechner1.0\rechner1.0\obj\Debug\rechner1.0.csprojAssemblyReference.cache
+C:\Users\mgeiger\source\repos\rechner1.0\rechner1.0\obj\Debug\MainWindow.g.cs
+C:\Users\mgeiger\source\repos\rechner1.0\rechner1.0\obj\Debug\App.g.cs
+C:\Users\mgeiger\source\repos\rechner1.0\rechner1.0\obj\Debug\rechner1.0_MarkupCompile.cache
+C:\Users\mgeiger\source\repos\rechner1.0\rechner1.0\obj\Debug\rechner1.0_MarkupCompile.lref
+C:\Users\mgeiger\source\repos\rechner1.0\rechner1.0\obj\Debug\MainWindow.baml
+C:\Users\mgeiger\source\repos\rechner1.0\rechner1.0\obj\Debug\rechner1.0.g.resources
+C:\Users\mgeiger\source\repos\rechner1.0\rechner1.0\obj\Debug\rechner1._0.Properties.Resources.resources
+C:\Users\mgeiger\source\repos\rechner1.0\rechner1.0\obj\Debug\rechner1.0.csproj.GenerateResource.cache
+C:\Users\mgeiger\source\repos\rechner1.0\rechner1.0\obj\Debug\rechner1.0.csproj.CoreCompileInputs.cache
+C:\Users\mgeiger\source\repos\rechner1.0\rechner1.0\obj\Debug\rechner1.0.exe
+C:\Users\mgeiger\source\repos\rechner1.0\rechner1.0\obj\Debug\rechner1.0.pdb
